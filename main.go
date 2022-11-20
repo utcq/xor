@@ -1,6 +1,7 @@
 package main
 import (
-  xor "github.com/UnityTheCoder/xor/xor"
+  xor "github.com/UnityTheCoder/xor/enc"
+  "fmt"
 )
 
 func main() {
@@ -8,9 +9,9 @@ func main() {
   str := "SecretPassword"
 
 
-  encrypted := xor.EncryptDecrypt(str)
+  encrypted := xor.encrypt(str)
   fmt.Println("Encrypted:", encrypted)
 
-  decrypted := xor.EncryptDecrypt(encrypted)
+  decrypted := xor.decrypt(encrypted)
   fmt.Println("Decrypted:", decrypted)
 }
