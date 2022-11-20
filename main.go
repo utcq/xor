@@ -1,6 +1,6 @@
 package main
 import (
-  xor "github.com/UnityTheCoder/lib"
+  xor "github.com/UnityTheCoder/xor/xor"
 )
 
 func main() {
