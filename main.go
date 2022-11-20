@@ -5,14 +5,14 @@ import (
 )
 
 func main() {
-  key := 431
-  key2 := "FIHU33"
-  str := "SecretPassword DF"
+  key := "dfi&*FHu"
+  key2 := "fihu33"
+  str := "secretpassword df"
 
 
   encrypted := xor.DoubleEncrypt(str, key, key2)
-  fmt.Println("Encrypted:", encrypted)
+  fmt.Println("encrypted:", encrypted)
 
   decrypted := xor.DoubleDecrypt(encrypted, key, key2)
-  fmt.Println("Decrypted:", decrypted)
+  fmt.Println("decrypted:", decrypted)
 }

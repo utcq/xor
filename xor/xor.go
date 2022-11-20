@@ -1,7 +1,5 @@
 package xor
 
-import "fmt"
-
 func Encrypt(input, key string) (output string) {
     kL := len(key)
 	  for i := range input {
