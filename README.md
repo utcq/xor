@@ -1,5 +1,16 @@
 # GOXOR
-Xor Implementation for Golang
+XOR Implementation for Golang
+
+[![asciicast](https://asciinema.org/a/u0iavTeQR8UinnENVebuVlMeR.svg)](https://asciinema.org/a/u0iavTeQR8UinnENVebuVlMeR)
+
+## Install
+```sh
+go get github.com/UnityTheCoder/xor/xor
+go install github.com/UnityTheCoder/xor/xor
+```
+
+
+## Getting Started
 
 **Example**
 ```go
