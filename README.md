@@ -1,7 +1,7 @@
 # GOXOR
 XOR Implementation for Golang
 
-[![asciicast](https://asciinema.org/a/u0iavTeQR8UinnENVebuVlMeR.svg)](https://asciinema.org/a/u0iavTeQR8UinnENVebuVlMeR)
+![screenshot](https://i.imgur.com/HZrJf5n.png)
 
 ## Install
 ```sh
