@@ -51,6 +51,6 @@ decrypted := xor.Decrypt(encrypted, key)
 <br>
 <br>
 
-#### Contribute
+### Contribute
 
 [#Sniper10754](https://github.com/sniper10754)
