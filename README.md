@@ -45,3 +45,12 @@ encrypted := xor.Encrypt(str, key)
 ```go
 decrypted := xor.Decrypt(encrypted, key)
 ```
+
+
+<br>
+<br>
+<br>
+
+#### Contribute
+
+[#Sniper10754](https://github.com/sniper10754)
